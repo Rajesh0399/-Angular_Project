@@ -1,0 +1,51 @@
+{
+    "mainTitle": "BlueHawk",
+    "img": "",
+    "menuButtons": [
+        {
+            "title": "Dashboard",
+            "icon": "",
+            "value": ""
+        },
+        {
+            "title": "Project",
+            "icon": "",
+            "value": ""
+        },
+        {
+            "title": "Department",
+            "icon": "",
+            "value": ""
+        },
+        {
+            "title": "Users",
+            "icon": "",
+            "value": ""
+        },
+        {
+            "title": "Flight planning",
+            "icon": "",
+            "value": ""
+        },
+        {
+            "title": "Asset",
+            "icon": "",
+            "value": ""
+        },
+        {
+            "title": "Vendor",
+            "icon": "",
+            "value": ""
+        },
+        {
+            "title": "Client",
+            "icon": "",
+            "value": ""
+        },
+        {
+            "title": "Location",
+            "icon": "",
+            "value": ""
+        }
+    ]
+}

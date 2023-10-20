@@ -1,0 +1,33 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .bg {
+ background-color: #fff;
+ box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for the toolbar */
+  }
+
+.mat-sidenav {
+    width: 200px; /* Set the width of the sidebar according to your design */
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff; /* Set the background color of the sidebar */
+    color: white; /* Set the text color of the sidebar */
+    padding: 20px;
+  }
+  
+//   .main-content {
+//     margin-left: 260px; /* Adjust the margin to match the width of the sidebar */
+//     padding: 20px;
+//   }
+  
+
+  .main-content {
+    background-color: whitesmoke; /* Set your desired background color */
+    padding: 20px; /* Set padding or other styles as needed */
+    height: 100vh; /* Optionally, set the height if you want the background color to cover the full height */
+  }
+  .txtclr {
+    color:black
+  }
