@@ -1,0 +1,30 @@
+.buttonClass {
+  width: 80%;
+  height: 40px;
+  background: white;
+  display: block;
+  border: none;
+  border-radius: 5px;
+  margin-inline: 10px 15px;
+  align-items: center;
+  display: flex;
+  filter: opacity(0.6);
+  padding-inline: 20px;
+  font-size: 14px;
+}
+.buttonClass:hover {
+  background: hsl(0, 0%, 78%);
+}
+.logoClass {
+  width: 100%;
+  height: 60px;
+  /* padding-top: 15px; */
+  margin: 25px 0px;
+}
+.iconClass {
+  width: 20px;
+}
+.iconClass:hover {
+  filter: brightness(0) saturate(100%) invert(60%) sepia(75%) saturate(451%)
+    hue-rotate(96deg) brightness(95%) contrast(83%);
+}

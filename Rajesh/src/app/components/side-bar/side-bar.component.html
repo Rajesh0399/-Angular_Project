@@ -1,0 +1,17 @@
+<ng-container *ngFor="let item of jsonData.data">
+  <ng-container *ngIf="item.type == 'image'">
+    <img
+      (click)="clickhandler(item)"
+      [src]="item.src || 'assets/images/logo-placeholder.png'"
+      [alt]="item.alt"
+      class="logoClass"
+    />
+  </ng-container>
+  <ng-container *ngIf="item.type == 'button'">
+    <button (click)="clickhandler(item)" class="buttonClass">
+      <img [src]="item.prefix" class="iconClass" />
+      &nbsp; &nbsp;
+      {{ item.text }}
+    </button>
+  </ng-container>
+</ng-container>

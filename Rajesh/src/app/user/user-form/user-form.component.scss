@@ -1,0 +1,27 @@
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.padding10 {
+  padding: 10px;
+}
+input,
+textarea {
+  background: var(--inputback);
+}
+.submitButton {
+  background: var(--primary);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+}
+.cancelButton {
+  background: #e3e3e3;
+  color: #777777;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-inline: 10px;
+}

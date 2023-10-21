@@ -1,0 +1,35 @@
+<div class="headerClass">
+  <div class="padding-inline-15">
+    <img
+      src="assets/icons/notifications-outline.svg"
+      alt="notifications"
+      width="25"
+    />
+  </div>
+  <div class="padding-inline-15">
+    <img
+      src="assets/icons/people-circle-outline.svg"
+      alt="notifications"
+      width="25"
+    />
+  </div>
+  <div class="padding-inline-15">
+    <select class="selectClass">
+      <option value="">
+        <img
+          src="assets/icons/location-outline.svg"
+          alt="notifications"
+          width="25"
+        />Choose a location
+      </option>
+      <option *ngFor="let c of categories" [value]="c.value">
+        <img
+          src="assets/icons/location-outline.svg"
+          alt="notifications"
+          width="25"
+        />
+        {{ c.name }}
+      </option>
+    </select>
+  </div>
+</div>

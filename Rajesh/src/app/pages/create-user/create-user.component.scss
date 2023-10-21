@@ -1,0 +1,23 @@
+.padding10 {
+  padding: 10px;
+}
+.Heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(0, 0%, 10%);
+  font-family: monospace;
+}
+.highlight {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--textActive);
+  font-family: monospace;
+}
+.noneColor {
+  color: grey;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}

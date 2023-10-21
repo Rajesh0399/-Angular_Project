@@ -1,0 +1,18 @@
+.sideBarClass {
+  width: 20%;
+  height: 100vh !important;
+  display: inline-block;
+  // box-shadow: 11px 12px 26px -1px rgba(0, 0, 0, 0.34);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pageClass {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  background: #f1f1f1;
+  width: 80%;
+  height: 100%;
+}
